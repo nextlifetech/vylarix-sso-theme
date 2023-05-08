@@ -1,6 +1,6 @@
-# :wind_face: Keywind
+# :wind_face: vylarix
 
-Keywind is a component-based Keycloak Login Theme built with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) and [Alpine.js](https://github.com/alpinejs/alpine).
+vylarix is a component-based Keycloak Login Theme built with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) and [Alpine.js](https://github.com/alpinejs/alpine).
 
 ![Preview](./preview.png)
 
@@ -48,14 +48,14 @@ Keywind is a component-based Keycloak Login Theme built with [Tailwind CSS](http
 
 ## Installation
 
-Keywind has been designed with component-based architecture from the start, and **you can customize as little or as much Keywind as you need**:
+vylarix has been designed with component-based architecture from the start, and **you can customize as little or as much vylarix as you need**:
 
-1. [Deploy Keywind Login Theme](https://www.keycloak.org/docs/latest/server_development/#deploying-themes)
+1. [Deploy vylarix Login Theme](https://www.keycloak.org/docs/latest/server_development/#deploying-themes)
 2. [Create your own Login Theme](https://www.keycloak.org/docs/latest/server_development/#creating-a-theme)
 3. Specify parent theme in [theme properties](https://www.keycloak.org/docs/latest/server_development/#theme-properties):
 
 ```
-parent=keywind
+parent=vylarix
 ```
 
 4. Brand and customize components with [FreeMarker](https://freemarker.apache.org/docs/dgui_quickstart_template.html)
@@ -84,7 +84,7 @@ Read more about Tailwind CSS configuration in the [documentation](https://tailwi
 
 ### Components
 
-You can update Keywind components in your own child theme. For example, create a copy of the `body` component and change the background:
+You can update vylarix components in your own child theme. For example, create a copy of the `body` component and change the background:
 
 `theme/mytheme/login/components/atoms/body.ftl`
 
